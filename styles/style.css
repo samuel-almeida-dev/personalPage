@@ -110,13 +110,64 @@ h2 {
     justify-content: center;
 }
 
+@media (max-width:1200px) {
+    .bodyContainer{
+        height: 350px;
+    }
+    .backgroundBodyDescription {
+        height: 210px;
+    }
+}
+
+@media (max-width:850px) {
+    .bodyContainer{
+        height: 470px;
+    }
+    .backgroundBodyDescription {
+        height: 300px;
+    }
+    .socialLinks{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .bodyContainer{
+        height: 520px;
+    }
+    .backgroundBodyDescription {
+        height: 380px;
+    }
+    .socialLinks{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .bodyContainer{
+        height: 670px;
+    }
+    .backgroundBodyDescription {
+        height: 500px;
+    }
+    h1 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .socialLinks{
+        width: 100%;
+    }
+}
+
 .marginBodyDescription {
     margin: 15px 30px;
 }
 
 .socialLinks {
     width: 500px;
-    height: 60px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,6 +191,14 @@ h2 {
 }
 .socialMedia:hover {
     border: 10px solid #696969;
+}
+@media (max-width:480px) {
+    .socialLinks{
+        width: 100%;
+    }
+    .socialMedia {
+        width: 110px;
+    }
 }
 
 .trasitionEffect {
